@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.error-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    font-size: 15vw;
+    font-weight: 700 !important;
+    background: url('images/R (3).jfif');
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+h3{
+    font-size: 2vw;
+    margin-top: 20px;
+    letter-spacing: 5px;
+}
+button{
+    margin-top: 40px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    width: 250px;
+    color: white;
+    background-color: rgb(140, 192, 244);
+    border: 0px;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 40px;
+    text-transform: uppercase;
+}
